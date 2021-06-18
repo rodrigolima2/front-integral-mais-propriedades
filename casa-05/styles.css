@@ -1,0 +1,127 @@
+body{
+    background: #FF7982;
+}
+
+.conteudo{
+    max-width: 1440px;
+    margin: 72px 80px auto 80px;
+    background-color: #F4F8FD;
+    padding-bottom: 1px;
+}
+.header{
+    background-image: url('assets/background.png');
+    background-repeat: no-repeat;
+    padding-top: 58px;
+    padding-bottom: 53px;
+    background-size: 1440px 440px;
+}
+.header h1{
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin: 0px auto 10px 108px;
+}
+.header p{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+    margin: 0px 25px 25px 57px;
+}
+.header a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 30px;
+    margin: 0px 257px 55px 256px;
+    background: #FF8E4F;
+    border-radius: 50px;
+
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.card-header{
+    max-width: 645px;
+    background: #09183F;
+    opacity: 0.5;
+    box-shadow: 0px 14px 25px -10px rgba(9, 24, 63, 0.17);
+    border-radius: 10px;
+    margin: 0px 386px 53px 409px;
+    padding-top: 57px;
+    padding-bottom: 8px;
+}
+.card-principal{
+    max-width: 501px;
+    padding-top: 51px;
+    margin: 0px 464px 61px 471px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.card-principal h1{
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    
+    margin: 0px auto 26px 120px;
+}
+.card-principal p{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+
+    margin: 0px 0px 38px 100px;
+}
+.card-principal a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 60px;
+    margin: 0px 184px 40px 185px;
+
+    background: #FFFFFF;
+    border: 1px solid #09183F;
+    box-sizing: border-box;
+    border-radius: 50px;
+
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #09183F;
+}
+.card-principal img{
+    max-width: 470px;
+}
+.card-principal-conteudo{
+    max-width: 380px;
+}
